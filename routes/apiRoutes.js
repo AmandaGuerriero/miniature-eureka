@@ -2,9 +2,15 @@ const router = require("express").Router()
 const { notes } = require('../data/notes.json');
 const fs = require('fs');
 const path = require('path');
+const uniqid = require('uniqid')
 
+// Create a new note
 function createNewNote(body, notesArray) {
-    const note = body;
+    var note = {
+        title: body.title,
+        text: body.text,
+        id: uniqid()
+    }
     notesArray.push(note);
     fs.writeFileSync(
     path.join(__dirname, '../data/notes.json'),
@@ -12,7 +18,6 @@ function createNewNote(body, notesArray) {
     );
     return notes;
 }
-
 
 // Validate the Note has the proper information
 function validateNote (note) {
@@ -25,10 +30,12 @@ function validateNote (note) {
     return true
 }
 
+// Get a note request
 router.get('/notes', (req, res) => {
     res.json(notes);
 });
 
+// Post a note request
 router.post('/notes', (req, res) => {
     req.body.id = notes.length.toString();
     // Send 400 error if any data req is not passed
@@ -41,7 +48,5 @@ router.post('/notes', (req, res) => {
     res.json(note);
     }
 });
-
-
 
 module.exports = router
