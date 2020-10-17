@@ -1,9 +1,12 @@
 # Note Taker
 
-[![Github license](https://img.shields.io/badge/license-MIT-blue.svg)]
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 Use this application to create new notes and keep track of all your notes in one place.
+
+## Application Deployed Here
+https://guerriero-note-taker.herokuapp.com/notes
 
 ## Screenshots
 ### Note Taker Homepage 
@@ -23,9 +26,8 @@ Use this application to create new notes and keep track of all your notes in one
 * [Technologies Used](#technologies)
 * [Usage Details](#usage)
 * [Credits](#credits)
-* [Contributions](#contributions)
+* [Contributing](#contributing)
 * [License](#license)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ## Install
@@ -51,7 +53,7 @@ My tutor, Maria Nevarez, and the wonderful Teaching Staff at UCLA
 ## Contributing
 Issue a pull request to contribute to this project
 
-## License Info
+## License
 Copyright (c) 2020 Amanda Guerriero
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
