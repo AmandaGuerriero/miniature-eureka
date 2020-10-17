@@ -44,6 +44,7 @@ https://guerriero-note-taker.herokuapp.com/notes
 ## Usage
 Start your local server
 > npm start
+
 View the application on your local server
 
 ## Credits
