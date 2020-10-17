@@ -1,39 +1,19 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text",
+      "title": "Laundry",
+      "text": "Do Laundry at 7pm",
       "id": "0"
     },
     {
-      "title": "I'm a note",
-      "text": "note text",
-      "id": "1"
+      "title": "Rake",
+      "text": "Rake the yard",
+      "id": "7hglj5mwkge1hss6"
     },
     {
-      "title": "New Note",
-      "text": "note text",
-      "id": "2"
-    },
-    {
-      "title": "New Note 2",
-      "text": "New note again",
-      "id": "3"
-    },
-    {
-      "title": "New Note 3",
-      "text": "New Note",
-      "id": "4"
-    },
-    {
-      "title": "New Note 4",
-      "text": "New Notes",
-      "id": "5"
-    },
-    {
-      "title": "I'm a new note 6",
-      "text": "New Notes",
-      "id": "6"
+      "title": "Empty Dishwasher",
+      "text": "Empty the Dishwasher at 12pm",
+      "id": "7hglj5nvkge1jm38"
     }
   ]
 }

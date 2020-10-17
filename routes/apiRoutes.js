@@ -2,10 +2,15 @@ const router = require("express").Router()
 const { notes } = require('../data/notes.json');
 const fs = require('fs');
 const path = require('path');
+const uniqid = require('uniqid')
 
 // Create a new note
 function createNewNote(body, notesArray) {
-    const note = body;
+    var note = {
+        title: body.title,
+        text: body.text,
+        id: uniqid()
+    }
     notesArray.push(note);
     fs.writeFileSync(
     path.join(__dirname, '../data/notes.json'),
