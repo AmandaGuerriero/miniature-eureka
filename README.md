@@ -44,8 +44,7 @@ https://guerriero-note-taker.herokuapp.com/notes
 ## Usage
 Start your local server
 > npm start
-
-After answering the questions, view the output file: `team.hmtl`
+View the application on your local server
 
 ## Credits
 My tutor, Maria Nevarez, and the wonderful Teaching Staff at UCLA
